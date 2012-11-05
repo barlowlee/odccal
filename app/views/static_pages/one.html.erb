@@ -1,111 +1,24 @@
 <!--The content of the web page-->
 
 <div id="title">
-	<h2><em><u>RED</u>  -- Mark Taper Forum</em> -- Tech Calendar:   #3  (7/24/2012)</h2>
+	<h2><em><u>Other Desert Cities</u>  -- Mark Taper Forum</em> -- Tech Calendar:   #1  (11/4/2012)</h2>
 </div>
 
 <div id="calendar">
 	<table>	
-		<tr id="day_names">		<!-- Days of the week-->
-			<td id="day_names">Mon</td>
-			<td id="day_names">Tue</td>
-			<td id="day_names">Wed</td>
-			<td id="day_names">Thu</td>
-			<td id="day_names">Fri</td>
-			<td id="day_names">Sat</td>
-			<td id="day_names">Sun</td>
-		</tr>
-
-									<!-- FIFTH ROW -->
-									<!-- Dates above the FIFTH Row of Cells -->
+		<%= render 'layouts/day_names' %>
+									<!-- FIRST ROW -->
+		<%= render 'layouts/first_row_dates' %>
+		<%= render 'layouts/first_row_banners' %>
+								<!-- FIRST ROW EVENTS -->  
 		<tr>
-			<td class="d">July 23</td>
-			<td class="d">24</td>
-			<td class="d">25</td>
-			<td class="d">26</td>
-			<td class="d">27</td>
-			<td class="d">28</td>
-			<td class="d">29</td>
-		</tr>
-									<!-- FIFTH row banners - stripe 1 -->
-		<tr>
-			<td class="o"> </td>
-			<td class="b" colspan=2>
-				<p id="boxed">Actors in Rehearsal Hall</p>
-			</td>
-			<td class="b" colspan=4>
-				<p id="boxed">Tech Rehearsals at the Taper</p>
-			</td>
-		</tr>
-									<!-- Spacer Row -->
-		<tr>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-		</tr>
-									<!-- FIFTH row banners - stripe 2 -->
-		<tr>
-			<td class="b" colspan=7>
-				<p id= "boxedbleedtravel"><< CHRISTOPHER ORAM IN LA >></p>
-			</td>
-		</tr>	
-									<!-- Spacer Row -->
-		<tr>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-		</tr>
-									<!-- FIFTH row banners - stripe 2A -->
-		<tr>
-			<td class="b" colspan=7>
-				<p id= "boxedflushrighttravel">NEIL AUSTIN IN LA >></p>
-			</td>
-		</tr>	
-									<!-- Spacer Row -->
-		<tr>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-		</tr>
-									<!-- FIFTH row banners - stripe 3 -->
-		<tr>
-			<td class="b" colspan=7>
-				<p id= "boxedflushrighttravel">CHRIS CRONIN IN LA >></p>
-			</td>
-		</tr>	
-									<!-- Spacer Row -->
-		<tr>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-			<td class="s"> </td>
-		</tr>
-
-
-								<!-- FIFTH ROW EVENTS -->  
-		<tr>
-								<!-- FIFTH Row Column 1 Monday -->
+								<!-- FIRST Row Column 1 Monday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Actors' Day Off</p><br/>
 				<p class="hang">Stage Crew Day Off</p><br/>
 			</td>
-								<!-- FIFTH Row Column 2 Tuesday -->
+								<!-- FIRST Row Column 2 Tuesday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">FOCUS</p>
@@ -154,7 +67,7 @@
 					</tr>
 				</table>
 			</td>
-								<!-- FIFTH Row Column 3 Wednesday -->
+								<!-- FIRST Row Column 3 Wednesday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">FOCUS</p>
@@ -205,7 +118,7 @@
 				</table>
 			</td>
 
-								<!-- FIFTH Row Column 4 Thursday -->
+								<!-- FIRST Row Column 4 Thursday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">FOCUS in the morning</p>
@@ -282,7 +195,7 @@
 				</table>
 
 			</td>
-								<!-- FIFTH Row Column 5 Friday -->
+								<!-- FIRST Row Column 5 Friday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">10/12 Tech Rehearsal</p>
@@ -345,7 +258,7 @@
 				</table>
 
 			</td>
-								<!-- FIFTH Row Column 6 Saturday -->
+								<!-- FIRST Row Column 6 Saturday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">PAINT CALL</p>
@@ -408,7 +321,7 @@
 					</tr>
 				</table>
 			</td>
-								<!-- FIFTH Row Column 7 Sunday -->
+								<!-- FIRST Row Column 7 Sunday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">PAINT CALL</p>
@@ -478,10 +391,10 @@
 				</table>
 			</td>
 		</tr>
-								<!-- END OF FIFTH ROW -->  
+								<!-- END OF FIRST ROW -->  
 
-									<!-- SIXTH ROW -->
-									<!-- Dates above the SIXTH Row of Cells -->
+									<!-- SECOND ROW -->
+									<!-- Dates above the SECOND Row of Cells -->
 		<tr>
 			<td class="d">30</td>
 			<td class="d">31</td>
@@ -491,7 +404,7 @@
 			<td class="d">4</td>
 			<td class="d">5</td>
 		</tr>
-									<!-- SIXTH row banners - stripe 1 -->
+									<!-- SECOND row banners - stripe 1 -->
 		<tr>
 			<td class="o"> </td>
 			<td class="b" colspan=1>
@@ -511,7 +424,7 @@
 			<td class="s"> </td>
 			<td class="s"> </td>
 		</tr>
-									<!-- SIXTH row banners - stripe 2 -->
+									<!-- SECOND row banners - stripe 2 -->
 		<tr>
 			<td class="b" colspan=7>
 				<p id= "boxedbleedtravel"><< CHRISTOPHER ORAM / NEIL AUSTIN IN LA >></p>
@@ -528,7 +441,7 @@
 			<td class="s"> </td>
 		</tr>
 
-									<!-- SIXTH row banners - stripe 3 -->
+									<!-- SECOND row banners - stripe 3 -->
 		<tr>
 			<td class="b" colspan=6>
 				<p id= "boxedflushlefttravel"><< CHRIS CRONIN IN LA</p>
@@ -549,14 +462,14 @@
 		</tr>
 
 
-								<!-- SIXTH ROW EVENTS -->  
+								<!-- SECOND ROW EVENTS -->  
 		<tr>
-								<!-- SIXTH Row Column 1 Monday -->
+								<!-- SECOND Row Column 1 Monday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">DAY OFF</p>
 			</td>
-								<!-- SIXTH Row Column 2 Tuesday -->
+								<!-- SECOND Row Column 2 Tuesday -->
 			<td class="i">
 															<!-- Full day events-->
 
@@ -636,7 +549,7 @@
 					</tr>
 				</table>
 			</td>
-								<!-- SIXTH Row Column 3 Wednesday -->
+								<!-- SECOND Row Column 3 Wednesday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Afternoon Rehsl / First Preview</p>
@@ -700,7 +613,7 @@
 					</tr>
 				</table>
 
-								<!-- SIXTH Row Column 4 Thursday -->
+								<!-- SECOND Row Column 4 Thursday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Afternoon Rehsl / Preview</p>
@@ -767,7 +680,7 @@
 				</table>
 
 			</td>
-								<!-- SIXTH Row Column 5 Friday -->
+								<!-- SECOND Row Column 5 Friday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Afternoon Rehsl / Preview</p>
@@ -838,7 +751,7 @@
 				</table>
 
 			</td>
-								<!-- SIXTH Row Column 6 Saturday -->
+								<!-- SECOND Row Column 6 Saturday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Afternoon Rehsl / Preview</p>
@@ -914,7 +827,7 @@
 					</tr>
 				</table>
 			</td>
-								<!-- SIXTH Row Column 7 Sunday -->
+								<!-- SECOND Row Column 7 Sunday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Two-performance day.  No rehearsal</p>
@@ -982,10 +895,10 @@
 				</table>
 			</td>
 		</tr>
-								<!-- END OF SIXTH ROW -->  
+								<!-- END OF SECOND ROW -->  
 
-									<!-- SEVENTH ROW -->
-									<!-- Dates above the SEVENTH Row of Cells -->
+									<!-- THIRD ROW -->
+									<!-- Dates above the THIRD Row of Cells -->
 		<tr>
 			<td class="d">6</td>
 			<td class="d">7</td>
@@ -995,7 +908,7 @@
 			<td class="d">11</td>
 			<td class="d">12</td>
 		</tr>
-									<!-- SEVENTH row banners - stripe 1 -->
+									<!-- THIRD row banners - stripe 1 -->
 		<tr>
 			<td class="o"> </td>
 			<td class="b" colspan=5>
@@ -1015,7 +928,7 @@
 			<td class="s"> </td>
 			<td class="s"> </td>
 		</tr>
-									<!-- SEVENTH row banners - stripe 2 -->
+									<!-- THIRD row banners - stripe 2 -->
 		<tr>
 			<td class="b" colspan=4>
 				<p id= "boxedflushlefttravel"><< NEIL AUSTIN IN LA</p>
@@ -1036,7 +949,7 @@
 			<td class="s"> </td>
 			<td class="s"> </td>
 		</tr>
-									<!-- SEVENTH row banners - stripe 3 -->
+									<!-- THIRD row banners - stripe 3 -->
 		<tr>
 			<td class="b" colspan=7>
 				<p id= "boxedbleedtravel"><< CHRISTOPHER ORAM IN LA >></p>
@@ -1052,38 +965,38 @@
 			<td class="s"> </td>
 			<td class="s"> </td>
 		</tr>
-								<!-- SEVENTH ROW EVENTS -->  
+								<!-- THIRD ROW EVENTS -->  
 		<tr>
-								<!-- SEVENTH Row Column 1 Monday -->
+								<!-- THIRD Row Column 1 Monday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">DAY OFF</p>
 			</td>
-								<!-- SEVENTH Row Column 2 Tuesday -->
+								<!-- THIRD Row Column 2 Tuesday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Afternoon Rehsl / Preview</p>
 															<!-- Timed events -->
 
 			</td>
-								<!-- SEVENTH Row Column 3 Wednesday -->
+								<!-- THIRD Row Column 3 Wednesday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Afternoon Rehsl / Preview</p>
 
-								<!-- SEVENTH Row Column 4 Thursday -->
+								<!-- THIRD Row Column 4 Thursday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Afternoon Rehsl / Preview</p>
 			</td>
-								<!-- SEVENTH Row Column 5 Friday -->
+								<!-- THIRD Row Column 5 Friday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Rehearsal TBD / Preview </p>
 								<p class="hang">Freeze show</p>
 
 			</td>
-								<!-- SEVENTH Row Column 6 Saturday -->
+								<!-- THIRD Row Column 6 Saturday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">Two-performance day.  No rehearsal</p>
@@ -1108,7 +1021,7 @@
 					</tr>
 				</table>
 			</td>
-								<!-- SEVENTH Row Column 7 Sunday -->
+								<!-- THIRD Row Column 7 Sunday -->
 			<td class="i">
 															<!-- Full day events-->
 				<p class="hang">One-performance day.  No rehearsal</p>
@@ -1126,7 +1039,7 @@
 				</table>
 			</td>
 		</tr>
-								<!-- END OF SEVENTH ROW -->  
+								<!-- END OF THIRD ROW -->  
 
 
 
