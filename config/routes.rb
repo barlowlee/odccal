@@ -1,4 +1,6 @@
 Odccal::Application.routes.draw do
+  get "static_pages/one"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
