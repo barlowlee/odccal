@@ -1,0 +1,203 @@
+/*This is styles.css*/
+table
+	{color:green;
+		border-style:solid;
+		border-width:2px;
+		border-color:black;
+		border-spacing:100%;
+		border-collapse:collapse;
+		font-family:"arial";
+		font-size:x-small;
+		vertical-align:top;
+	}
+	
+table.mini_cell
+	{color:blue;
+		border-style:none;
+		margin-top:1em;
+	}
+tr#day_names
+	{padding:40px;
+		color:red;
+		font-weight:bold;
+		font-style:italic;
+		border-color:black;
+	}
+
+td#day_names
+	{font-size:large;}
+
+td
+	{border-style:solid;
+		border-color:black;
+		border-width:2px;
+		font-size:small;
+		vertical-align:text-top;
+		padding:0px 2px 5px;
+	}
+td.m
+	{border-style:none;
+		font-size:x-small;
+	}
+td.h		/*hours*/
+	{border-style:none;
+		text-align:right;
+		font-size:x-small;
+	}
+td.i		/*information*/
+	{border-top-style:none;
+	}
+td.s		/*spacer*/
+	{border-top-style:none;
+		border-bottom-style:none;
+		height:5px;		
+	}
+td.b		/*banner*/
+	{padding:0px;
+		text-align:center;
+		vertical-align:middle;
+		font-weight:bold;
+		border-width:0px 2px 0px;	/*you can't set margins in an individual TD cell*/
+	}
+td.o		/*offset multi-day banner*/
+	{border-top-style:none;
+		border-bottom-style:none;
+	}
+td.d		/*date = month and day*/
+	{text-align:right;
+		font-size:large;
+		font-weight:bold;
+		border-bottom-style:none;
+	}
+	
+#holiday
+	{background-color:yellow;}
+	
+.hang 
+	{ text-indent: -8px; 
+		margin-left: 8px; 
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-weight:bold;
+		color:blue;
+	} 
+
+h3
+	{color:blue;}
+h6
+	{color:purple;}
+pre
+	{color:green;
+		font-family:"Impact";}
+p#unique
+	{color:brown;	}
+p#boxed
+	{border-style:solid;
+		border-color:black;
+		border-width:1px;
+		font-size:x-small;
+		color:purple;
+		text-align:center;
+		vertical-align:middle;
+		background-color:lightsalmon;
+		vertical-align:text-top;
+		margin:0px 16px 0px;
+		padding:2px 2px 3px;
+	}
+	
+p#boxedflushright
+	{border-style:solid;
+		border-color:black;
+		border-width:1px;
+		font-size:x-small;
+		color:purple;
+		text-align:center;
+		vertical-align:middle;
+		background-color:lightsalmon;
+		vertical-align:text-top;
+		margin:0px 0px 0px 16px;  /* top, right, bottom, left!  */
+		padding:2px 2px 3px;
+	}	
+	
+p#boxedflushleft
+	{border-style:solid;
+		border-color:black;
+		border-width:1px;
+		font-size:x-small;
+		color:purple;
+		text-align:center;
+		vertical-align:middle;
+		background-color:lightsalmon;
+		vertical-align:text-top;
+		margin:0px 16px 0px 0px;  /* top, right, bottom, left!  */
+		padding:2px 2px 3px;
+	}	
+
+p#boxedtravel
+	{border-style:solid;
+		border-color:black;
+		border-width:1px;
+		font-size:x-small;
+		color:white;
+		text-align:center;
+		vertical-align:middle;
+		background-color:orchid;
+		vertical-align:text-top;
+		margin:0px 16px 0px;
+		padding:2px 2px 3px;
+	}
+	
+p#boxedflushrighttravel
+	{border-style:solid;
+		border-color:black;
+		border-width:1px;
+		font-size:x-small;
+		color:white;
+		text-align:center;
+		vertical-align:middle;
+		background-color:orchid;
+		vertical-align:text-top;
+		margin:0px 0px 0px 16px;  /* top, right, bottom, left!  */
+		padding:2px 2px 3px;
+	}	
+	
+p#boxedflushlefttravel
+	{border-style:solid;
+		border-color:black;
+		border-width:1px;
+		font-size:x-small;
+		color:white;
+		text-align:center;
+		vertical-align:middle;
+		background-color:orchid;
+		vertical-align:text-top;
+		margin:0px 16px 0px 0px;  /* top, right, bottom, left!  */
+		padding:2px 2px 3px;
+	}	
+
+p#boxedbleedtravel
+	{border-style:solid;
+		border-color:black;
+		border-width:1px;
+		font-size:x-small;
+		color:white;
+		text-align:center;
+		vertical-align:middle;
+		background-color:orchid;
+		vertical-align:text-top;
+		margin:0px 0px 0px 0px;  /* top, right, bottom, left!  */
+		padding:2px 2px 3px;
+	}	
+
+body
+	{font-family:"Arial";}
+h5.group
+	{font-family:"Bookman Old Style";}
+div#main
+	{width: 75%; float:left;}
+div#sidebar
+	{position:fixed;}
+div#standalone
+	{clear:both;}
+div#dummy
+	{position: fixed; width: 100%;}
