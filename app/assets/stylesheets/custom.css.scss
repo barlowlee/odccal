@@ -1,4 +1,22 @@
-/*This is styles.css*/
+/*This is custom.css*/
+
+/* conditional page breaks */
+
+/*Ensure that the page break isn't seen on screen, but is seen by the printer*/
+
+/*@media screen {
+	.page-break { display: none; }
+	.nobreak    { display: none; }
+	.allowbreak { display: none; }
+}
+
+@media print {
+	.page-break    { display: block; page-break-before: always; }
+	.nobreak       { display: block; page-break-before: avoid; }
+	.allowbreak    { display: block; page-break-before: auto; }
+}
+*/
+
 table
 	{color:green;
 		border-style:solid;
@@ -201,3 +219,5 @@ div#standalone
 	{clear:both;}
 div#dummy
 	{position: fixed; width: 100%;}
+	
+
