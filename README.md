@@ -1,2 +1,2 @@
-# ODCcal
-This is a first stab at a pretty-printing theatrical calendar.  Initially intended for use with Other Desert Cities at the Taper.
+# TaperCal
+This is another stab at a pretty-printing theatrical calendar.  Intended for use during the dark weeks following "Other Desert Cities," the Carl Reiner celebration, the August Wilson Monologues, and Tribes.
