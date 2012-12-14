@@ -2,10 +2,13 @@ Odccal::Application.routes.draw do
 
   get 'static_pages/all'
   
-  get "static_pages/one"
-  get "static_pages/two"
-  get "static_pages/three"
-  get "static_pages/four"
+  get 'static_pages/one'
+  get 'static_pages/two'
+  get 'static_pages/three'
+  get 'static_pages/four'
+  
+  get 'dark_weeks/all'
+  get 'tribes/all'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

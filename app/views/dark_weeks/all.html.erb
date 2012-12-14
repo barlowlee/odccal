@@ -1,0 +1,47 @@
+<!-- odccal/dark_weeks - All -->
+
+<% provide(:title, 'Dark Weeks') %>
+<% provide(:issue_number, '#1') %>
+<% provide(:issue_date, '12/12/2012') %>
+
+<div id="calendar">
+	<table>
+
+		<%= render 'layouts/day_names' %>
+
+									<!-- FIRST ROW -->
+		<%= render 'dark_weeks/row-01-dates' %>
+		<%= render 'dark_weeks/row-01-banners' %>
+		<%= render 'dark_weeks/row-01-events' %>
+
+									<!-- SECOND ROW -->
+
+		<%= render 'dark_weeks/row-02-dates' %>
+		<%= render 'dark_weeks/row-02-banners' %>
+		<%= render 'dark_weeks/row-02-events' %>
+
+									<!-- THIRD ROW -->
+
+		<%= render 'dark_weeks/row-03-dates' %>
+		<%= render 'dark_weeks/row-03-banners' %>
+		<%= render 'dark_weeks/row-03-events' %>
+
+									<!-- FOURTH ROW -->
+
+		<%= render 'dark_weeks/row-04-dates' %>
+		<%= render 'dark_weeks/row-04-banners' %>
+		<%= render 'dark_weeks/row-04-events' %>
+
+									<!-- FIFTH ROW -->
+
+		<%= render 'dark_weeks/row-05-dates' %>
+		<%= render 'dark_weeks/row-05-banners' %>
+		<%= render 'dark_weeks/row-05-events' %>
+
+
+
+
+
+
+	</table>
+</div>
