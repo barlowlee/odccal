@@ -8,7 +8,8 @@ Odccal::Application.routes.draw do
   get 'static_pages/four'
   
   get 'dark_weeks/all'
-  get 'tribes/all'
+  get 'tribes/production'
+  get 'tribes/run'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
