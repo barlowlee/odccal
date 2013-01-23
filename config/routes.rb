@@ -8,6 +8,7 @@ Odccal::Application.routes.draw do
   get 'static_pages/four'
   
   get 'dark_weeks/all'
+  get 'dark_weeks/enter_laughing'
   get 'tribes/production'
   get 'tribes/run'
 
