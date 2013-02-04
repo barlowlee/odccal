@@ -10,6 +10,9 @@ Odccal::Application.routes.draw do
   get 'dark_weeks/all'
   get 'dark_weeks/enter_laughing'
   get 'tribes/production'
+  get 'tribes/production123'
+  get 'tribes/production45'
+  
   get 'tribes/run'
 
   # The priority is based upon order of creation:
