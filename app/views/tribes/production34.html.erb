@@ -1,0 +1,21 @@
+<% provide(:title, 'Tribes - Production - Weeks 3, 4') %>
+<% provide(:issue_number, '#4') %>
+<% provide(:issue_date, '2/18/2013') %>
+
+<div id="calendar">
+	<table>
+
+		<%= render 'layouts/day_names' %>
+
+									<!-- FIRST ROW -->
+		<%= render 'tribes/row-08-dates' %>
+		<%= render 'tribes/row-08-banners' %>
+		<%= render 'tribes/row-08-events' %>
+		
+									<!-- SECOND ROW -->
+		<%= render 'tribes/row-09-dates' %>
+		<%= render 'tribes/row-09-banners' %>
+		<%= render 'tribes/row-09-events' %>
+
+	</table>
+</div>

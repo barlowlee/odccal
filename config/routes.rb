@@ -12,8 +12,11 @@ Odccal::Application.routes.draw do
   get 'tribes/production'
   get 'tribes/production123'
   get 'tribes/production45'
+  get 'tribes/production34'
   
   get 'tribes/run'
+  
+  get 'turner/production'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
