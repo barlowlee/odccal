@@ -21,6 +21,7 @@ Odccal::Application.routes.draw do
   get 'turner/tech'
   get 'turner/tech1'
   get 'turner/tech2'
+  get 'turner/techpg'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -27,6 +27,7 @@ table
 		font-family:"arial";
 		font-size:x-small;
 		vertical-align:top;
+		page-break-inside:auto;
 	}
 	
 table.mini_cell
@@ -34,12 +35,26 @@ table.mini_cell
 		border-style:none;
 		margin-top:1em;
 	}
+
+tr
+	{page-break-inside:avoid;
+		page-break-after:auto;}
+
 tr#day_names
 	{padding:40px;
 		color:red;
 		font-weight:bold;
 		font-style:italic;
 		border-color:black;
+	}
+
+tr#day_names_multi_page
+	{padding:40px;
+		color:red;
+		font-weight:bold;
+		font-style:italic;
+		border-color:black;
+		page-break-before:always;
 	}
 
 td#day_names
