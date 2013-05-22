@@ -24,6 +24,7 @@ Odccal::Application.routes.draw do
   get 'turner/techpg'
 
   get 'parallel/production'
+  get 'parallel/tech'
 
   get 'humor/production'
   
